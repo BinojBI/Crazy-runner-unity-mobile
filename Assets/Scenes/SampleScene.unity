@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 65644610}
   - component: {fileID: 65644609}
   - component: {fileID: 65644608}
+  - component: {fileID: 65644611}
   - component: {fileID: 65644612}
   m_Layer: 0
   m_Name: character
@@ -208,6 +209,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65644611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65644607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625e74207dab5b343bfb5c7d618e6a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &65644612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +234,7 @@ MonoBehaviour:
   yIncremental: 10
   maxright: 250.5
   maxleft: 230.5
-  swcontroller: {fileID: 0}
+  swcontroller: {fileID: 65644611}
   man: {fileID: 65644610}
 --- !u!1 &170076733
 GameObject:
