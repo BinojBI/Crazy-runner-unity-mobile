@@ -6,6 +6,12 @@ TagManager:
   tags:
   - obstacle
   - coin
+  - Aww
+  - hooray
+  - PlayAgain
+  - CoinScore
+  - HighScore
+  - YourScore
   layers:
   - Default
   - TransparentFX

@@ -11,6 +11,7 @@ public class Obstable : MonoBehaviour {
     public float destroyPosition = 138f;
     private TextMeshProUGUI LifeDamage;
     private GameObject LifeText;
+
    // private Transform lifeText;
 
     // Use this for initialization
@@ -29,7 +30,10 @@ public class Obstable : MonoBehaviour {
         if (gameObject.transform.position.y < destroyPosition)
         {
             Destroy(gameObject);
+            
         }
+
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,6 +41,7 @@ public class Obstable : MonoBehaviour {
         if (collision.CompareTag("Player"))
         {
             //player take damage
+           
             collision.GetComponent<Move>().health -= damage;
             Debug.Log(collision.GetComponent<Move>().health);
             LifeDamage.text = collision.GetComponent<Move>().health.ToString();

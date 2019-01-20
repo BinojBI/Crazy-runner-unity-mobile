@@ -3,8 +3,11 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/SampleScene.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/GameWindow.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/GameWindow.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/GameOver.unity
+  isLoaded: 0
+  isActive: 0

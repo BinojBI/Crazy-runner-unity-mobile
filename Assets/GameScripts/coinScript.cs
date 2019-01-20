@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Audio;
 
 public class coinScript : MonoBehaviour {
 
@@ -11,11 +12,15 @@ public class coinScript : MonoBehaviour {
     public float destroyPosition = 138f;
     private TextMeshProUGUI textScore;
     private GameObject ScoreText;
+    private GameObject CoinScore;
+   
+    
     // Use this for initialization
     void Start () {
         pos = transform.position;
         ScoreText = GameObject.FindGameObjectWithTag("coin");
         textScore = ScoreText.GetComponent<TextMeshProUGUI> ();
+     
 
     }
 	
@@ -35,7 +40,11 @@ public class coinScript : MonoBehaviour {
         if (collision.CompareTag("Player"))
         {
             //player take damage
+           
             collision.GetComponent<Move>().coinScore += score;
+            
+
+            // ShowScore.yourScore += score;
             Debug.Log(collision.GetComponent<Move>().coinScore);
             textScore.text = collision.GetComponent<Move>().coinScore.ToString();
             Destroy(gameObject);

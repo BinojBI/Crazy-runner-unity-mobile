@@ -62,14 +62,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameScripts\coinScript.cs" />
+    <Compile Include="Assets\GameScripts\Display.cs" />
+    <Compile Include="Assets\GameScripts\GameOver.cs" />
+    <Compile Include="Assets\GameScripts\HighScore.cs" />
     <Compile Include="Assets\GameScripts\MainMenu.cs" />
     <Compile Include="Assets\GameScripts\Move.cs" />
+    <Compile Include="Assets\GameScripts\Music.cs" />
     <Compile Include="Assets\GameScripts\Obstable.cs" />
     <Compile Include="Assets\GameScripts\Road.cs" />
+    <Compile Include="Assets\GameScripts\ScoreBoard.cs" />
+    <Compile Include="Assets\GameScripts\ShowScore.cs" />
     <Compile Include="Assets\GameScripts\Spawning.cs" />
     <Compile Include="Assets\GameScripts\Textable.cs" />
     <Compile Include="Assets\GameScripts\TouchControls.cs" />
     <Compile Include="Assets\GameScripts\touchtest.cs" />
+    <Compile Include="Assets\GameScripts\YourScore.cs" />
     <Compile Include="Assets\moveByTouch.cs" />
     <Compile Include="Assets\player.cs" />
     <Compile Include="Assets\PlayerController.cs" />
