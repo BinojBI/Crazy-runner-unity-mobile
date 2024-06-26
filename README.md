@@ -1,7 +1,7 @@
 # Crazy-runner-unity-mobile
 
 # Introduction
-Crazy runner is a platform of android based 2d adventure game. The player has to earn points evade from obstacles in the road. This is endless game but as player you have only 3 lifes. your aim is to protect them and earn as you can means reach higher score of your scoreboard. 
+Crazy Runner is an Android-based platform featuring a thrilling 2D adventure game. In Crazy Runner, players earn points by evading obstacles on an endless road. With only three lives, the goal is to survive as long as possible and achieve the highest score on the leaderboard.
 
 # Development
 
